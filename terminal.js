@@ -1,6 +1,6 @@
 $(function() {
   
-    $('.prompt').html('root@lekssays:~# ');
+    $('.prompt').html('root@hidan:~# ');
 
   var term = new Terminal('#input-line .cmdline', '#container output');
   term.init();
